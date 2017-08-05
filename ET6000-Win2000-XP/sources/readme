@@ -1,0 +1,10 @@
+To compile the sources you need Microsoft Driver Development Kit (DDK). Using
+the Win2000 DDK you can compile Win2000 ET6x00 graphics driver. Using the WinXP
+DDK you can compile both Win2000 and WinXP ET6x00 graphics driver.
+
+ET6x00 Windows graphics driver consists of two binaries - a video miniport
+(et6000.dll) and a display (et6000.sys) driver.
+
+ATTENTION!
+Before compiling both binaries you need to set the WINXP macros properly
+(they are defined in the display\driver.h and miniport\driver.h files).

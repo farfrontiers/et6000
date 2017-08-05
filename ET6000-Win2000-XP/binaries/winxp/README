@@ -1,0 +1,6 @@
+This graphics driver for Windows XP supports Tseng Labs ET6000, ET6100
+and ET6300 chips. Version 0.5 features are:
+ - 640x480 to 1280x1024 resolutions with 15, 16 and 24 bits
+   per pixel and 56-120 Hz monitor refresh rates;
+ - hardware accelerated screen-to-screen blocks copying;
+ - hardware accelerated rectangular areas filling.
